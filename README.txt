@@ -1,4 +1,5 @@
 Una vez realizados las soluciones para ambos casos se procede a respoder las preguntas propuestas:
+
 1. La clase Persona puede optar por un rol de superclase abstracta que contenga los atributos y comportamientos comunes de cualquier persona.
 Para mejorarla, se crean subclases más específicas que representen distintos roles o tipos de personas según el contexto del problema.
 Gracias a esto mejora el diseño permitiendo la reutilizar código y especializar comportamiento en las subclases.
@@ -11,5 +12,6 @@ solo se crean nuevas subclases sin modificar el resto del sistema.
 sus Departamentos también desaparecen.
 Esto hace el modelo adopte una vista más parecida a lo que vemos en la realidad.
 
-4. Para la generalizacion del caso2 bastanría con eliminar las SuperClases "Persona", "Vehiculo" y "Empresa" y limitar el funcionamiento a las SubClases "Moto", "EmpresaNaviera" y "Empleado", con la diferencia que los atributos y métodos correspondientes a las SuperClases ya no seran herados si no que conformarían
+4. Para la generalizacion del caso2 bastanría con eliminar las SuperClases "Persona", "Vehiculo" y "Empresa" y limitar el funcionamiento a las SubClases "Moto",
+"EmpresaNaviera" y "Empleado", con la diferencia que los atributos y métodos correspondientes a las SuperClases ya no seran herados si no que conformarían
 parte en si de las SubClases.
